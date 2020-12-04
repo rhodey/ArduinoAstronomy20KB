@@ -1,5 +1,5 @@
 # ArduinoAstronomy
-This library is a fork of @cosinekitty's [Astronomy-Engine](https://github.com/cosinekitty/astronomy) which moves `+10KB` of solar system model parameters onto flash memory using @LowPowerLab's [SPIFlash](https://github.com/LowPowerLab/SPIFlash) library.
+This library is a fork of cosinekitty's [Astronomy-Engine](https://github.com/cosinekitty/astronomy) which moves `+10KB` of solar system model parameters onto flash memory using LowPowerLab's [SPIFlash](https://github.com/LowPowerLab/SPIFlash) library. This is not a full port of [Astronomy-Engine](https://github.com/cosinekitty/astronomy), presently [Pluto is missing](https://github.com/rhodey/ArduinoAstronomy/issues/1) however azimuth and altitude calculations for all 8 planets plus the Sun and Moon are supported.
 
 ## Download & Install
 To install a library for the Arduino IDE you must know where the `libraries/` directory is located then copy or link into it. I have installed the Arduino IDE using snap on Ubuntu so:
