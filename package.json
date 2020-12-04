@@ -1,0 +1,12 @@
+{
+  "name": "arduino-astronomy-flash",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "split": "^1.0.1",
+    "serialport": "^9.0.2"
+  },
+  "devDependencies": {}
+}
