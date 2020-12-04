@@ -1,7 +1,8 @@
 # ArduinoAstronomy
 This library is a fork of @cosinekitty's [Astronomy-Engine](https://github.com/cosinekitty/astronomy) which moves `+10KB` of solar system model parameters onto flash memory using @LowPowerLab's [SPIFlash](https://github.com/LowPowerLab/SPIFlash) library.
 
-## Download
+## Download & Install
+To install a library for the Arduino IDE you must know where the `libraries/` directory is located then copy or link into it. I have installed the Arduino IDE using snap on Ubuntu so:
 ```
 $ git clone https://github.com/rhodey/ArduinoAstronomy
 $ ln -s $(pwd)/ArduinoAstronomy ~/snap/arduino/current/Arduino/libraries/ArduinoAstronomy
