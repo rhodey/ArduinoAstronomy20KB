@@ -299,8 +299,4 @@ astro_horizon_t Astronomy_Horizon(
     double dec,
     astro_refraction_t refraction
 );
-
-#define QQQ 6
-void blinkLED(int pin, int delayMs);
-
 #endif
